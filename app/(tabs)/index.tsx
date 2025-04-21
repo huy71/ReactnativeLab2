@@ -4,7 +4,7 @@ import { useRouter } from "expo-router";
 
 export default function Home() {
   const router = useRouter();
-  const labs = [1, 2, 3, 4, 5, 6];
+  const labs = [1, 1.2, 2, 3, 4, 5, 6];
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
